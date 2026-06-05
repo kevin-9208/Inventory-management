@@ -2,14 +2,14 @@
   <MainLayout>
     <div class="space-y-6">
       <div class="flex justify-between items-center">
-        <h2 class="text-2xl font-bold">
+        <h2 class="text-xl font-semibold text-slate-800">
           Products
         </h2>
 
         <button
           v-if="isAdmin"
           @click="openCreate"
-          class="btn-success"
+          class="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium text-white bg-emerald-500 hover:bg-emerald-600 active:bg-emerald-700 rounded-lg shadow-sm transition-colors duration-150"
         >
           Add Product
         </button>
